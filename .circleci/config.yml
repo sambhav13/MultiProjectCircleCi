@@ -42,5 +42,5 @@ jobs:
             python -m nose Project1/test
 
       - store_artifacts:
-          path: test-reports
+          path: Project1
           destination: test-reports

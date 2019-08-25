@@ -4,6 +4,7 @@ from unittest.mock import Mock
 
 import mock
 
+from source import Calculator2
 
 class TestMock(TestCase):
 
@@ -20,4 +21,6 @@ class TestMock(TestCase):
         # cal.sum_new.return_value = 6
         obj = Mock()
         self.assertEqual(cal_insatance.sum(), 6)
+        t = Calculator2()
+        t.sum()
 
