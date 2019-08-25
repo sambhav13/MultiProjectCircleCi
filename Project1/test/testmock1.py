@@ -1,10 +1,11 @@
 from unittest import TestCase
-from unittest.mock import patch
-from unittest.mock import Mock
+from mock import patch
+from mock import Mock
 
+
+
+from source.source import Calculator2
 import mock
-
-from source import Calculator2
 
 class TestMock(TestCase):
 
